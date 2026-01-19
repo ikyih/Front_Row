@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D33CA7AE26890FDF0000432E"
+               BlueprintIdentifier = "FA38EEAB2F1E7D6000143B62"
                BuildableName = "Front Row.app"
                BlueprintName = "Front Row"
                ReferencedContainer = "container:Apple TV 1st Gen.xcodeproj">
@@ -66,7 +66,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D33CA7AE26890FDF0000432E"
+            BlueprintIdentifier = "FA38EEAB2F1E7D6000143B62"
             BuildableName = "Front Row.app"
             BlueprintName = "Front Row"
             ReferencedContainer = "container:Apple TV 1st Gen.xcodeproj">
@@ -83,7 +83,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D33CA7AE26890FDF0000432E"
+            BlueprintIdentifier = "FA38EEAB2F1E7D6000143B62"
             BuildableName = "Front Row.app"
             BlueprintName = "Front Row"
             ReferencedContainer = "container:Apple TV 1st Gen.xcodeproj">
