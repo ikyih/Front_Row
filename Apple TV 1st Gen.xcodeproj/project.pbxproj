@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA38EEAD2F1E7D6000143B62 /* version.json in Sources */ = {isa = PBXBuildFile; fileRef = FA0CEE802F0F36F60083692F /* version.json */; };
+		FA38EEAE2F1E7D6000143B62 /* TVScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA942F2F0C7C6D009ADBEF /* TVScreenView.swift */; };
+		FA38EEAF2F1E7D6000143B62 /* MoviesLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA94302F0C7C6D009ADBEF /* MoviesLibraryManager.swift */; };
+		FA38EEB02F1E7D6000143B62 /* TVLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA94312F0C7C6D009ADBEF /* TVLibraryManager.swift */; };
+		FA38EEB12F1E7D6000143B62 /* VideoPlayerView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA94322F0C7C6D009ADBEF /* VideoPlayerView 2.swift */; };
+		FA38EEB22F1E7D6000143B62 /* PodcastsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA94332F0C7C6D009ADBEF /* PodcastsScreenView.swift */; };
+		FA38EEB32F1E7D6000143B62 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA43DFA12F15A40900CC8B13 /* WebView.swift */; };
+		FA38EEB42F1E7D6000143B62 /* MoviesScreenView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA94342F0C7C6D009ADBEF /* MoviesScreenView 2.swift */; };
+		FA38EEB52F1E7D6000143B62 /* PodcastsLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA94352F0C7C6D009ADBEF /* PodcastsLibraryManager.swift */; };
+		FA38EEB62F1E7D6000143B62 /* SourcesScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECA7832F09EB1A0046CB68 /* SourcesScreenView.swift */; };
+		FA38EEB72F1E7D6000143B62 /* PhotosScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FCF302F0860920042B376 /* PhotosScreenView.swift */; };
+		FA38EEB82F1E7D6000143B62 /* PhotoLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FCF312F0860920042B376 /* PhotoLibraryManager.swift */; };
+		FA38EEB92F1E7D6000143B62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33CA7B626890FDF0000432E /* ContentView.swift */; };
+		FA38EEBA2F1E7D6000143B62 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6768B2F07167600DE5402 /* SettingsView.swift */; };
+		FA38EEBB2F1E7D6000143B62 /* MusicScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB676842F07111F00DE5402 /* MusicScreen.swift */; };
+		FA38EEBC2F1E7D6000143B62 /* SettingsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6768D2F07188C00DE5402 /* SettingsScreenView.swift */; };
+		FA38EEBD2F1E7D6000143B62 /* MusicLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB676852F07111F00DE5402 /* MusicLibraryManager.swift */; };
+		FA38EEBE2F1E7D6000143B62 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB676862F07111F00DE5402 /* MusicPlayer.swift */; };
+		FA38EEBF2F1E7D6000143B62 /* Apple_TV_1st_Gen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D33CA7B826890FDF0000432E /* Apple_TV_1st_Gen.xcdatamodeld */; };
+		FA38EEC02F1E7D6000143B62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33CA7B226890FDF0000432E /* AppDelegate.swift */; };
+		FA38EEC12F1E7D6000143B62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33CA7B426890FDF0000432E /* SceneDelegate.swift */; };
+		FA38EEC42F1E7D6000143B62 /* LucidaGrandeBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D33CA7E5268A3B9E0000432E /* LucidaGrandeBold.ttf */; };
+		FA38EEC52F1E7D6000143B62 /* MyriadProSemibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D33CA7ED268A4F5A0000432E /* MyriadProSemibold.ttf */; };
+		FA38EEC62F1E7D6000143B62 /* version.json in Resources */ = {isa = PBXBuildFile; fileRef = FA0CEE802F0F36F60083692F /* version.json */; };
+		FA38EEC72F1E7D6000143B62 /* LucidaGrande.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D33CA7E6268A3B9E0000432E /* LucidaGrande.ttf */; };
+		FA38EEC82F1E7D6000143B62 /* LucidaGrande.ttc in Resources */ = {isa = PBXBuildFile; fileRef = FA4999012F06F6AD0074C76B /* LucidaGrande.ttc */; };
+		FA38EEC92F1E7D6000143B62 /* MyriadProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D33CA7E9268A4E9B0000432E /* MyriadProRegular.ttf */; };
+		FA38EECA2F1E7D6000143B62 /* Front_Row_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA677DAD2F0DFC8A0073E913 /* Front_Row_Icon.png */; };
+		FA38EECB2F1E7D6000143B62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33CA7BE26890FEB0000432E /* Preview Assets.xcassets */; };
+		FA38EECC2F1E7D6000143B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33CA7BB26890FEB0000432E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA38EEE72F1E7DA000143B62 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D33CA7B226890FDF0000432E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D33CA7B426890FDF0000432E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D33CA7B626890FDF0000432E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D33CA7B926890FDF0000432E /* Apple_TV_1st_Gen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Apple_TV_1st_Gen.xcdatamodel; sourceTree = "<group>"; };
+		D33CA7BB26890FEB0000432E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D33CA7BE26890FEB0000432E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D33CA7C326890FEB0000432E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33CA7CC26890FEC0000432E /* Apple_TV_1st_GenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_TV_1st_GenTests.swift; sourceTree = "<group>"; };
+		D33CA7CE26890FEC0000432E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33CA7D726890FEC0000432E /* Apple_TV_1st_GenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_TV_1st_GenUITests.swift; sourceTree = "<group>"; };
+		D33CA7D926890FEC0000432E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33CA7E5268A3B9E0000432E /* LucidaGrandeBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LucidaGrandeBold.ttf; sourceTree = "<group>"; };
+		D33CA7E6268A3B9E0000432E /* LucidaGrande.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LucidaGrande.ttf; sourceTree = "<group>"; };
+		D33CA7E9268A4E9B0000432E /* MyriadProRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyriadProRegular.ttf; sourceTree = "<group>"; };
+		D33CA7ED268A4F5A0000432E /* MyriadProSemibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyriadProSemibold.ttf; sourceTree = "<group>"; };
+		FA0CEE802F0F36F60083692F /* version.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = version.json; sourceTree = "<group>"; };
+		FA2FCF302F0860920042B376 /* PhotosScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotosScreenView.swift; path = "Apple TV 1st Gen.xcodeproj/PhotosScreenView.swift"; sourceTree = "<group>"; };
+		FA2FCF312F0860920042B376 /* PhotoLibraryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotoLibraryManager.swift; path = "Apple TV 1st Gen.xcodeproj/PhotoLibraryManager.swift"; sourceTree = "<group>"; };
+		FA38EED02F1E7D6000143B62 /* Front Row.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Front Row.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA38EED12F1E7D6000143B62 /* Front Row copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Front Row copy2-Info.plist"; path = "/Users/mickeygelb/Documents/Apple-TV-Experiment/Front Row copy2-Info.plist"; sourceTree = "<absolute>"; };
+		FA43DFA12F15A40900CC8B13 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		FA4999012F06F6AD0074C76B /* LucidaGrande.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = LucidaGrande.ttc; sourceTree = "<group>"; };
+		FA677DAD2F0DFC8A0073E913 /* Front_Row_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Front_Row_Icon.png; sourceTree = "<group>"; };
+		FA8F4DE12F0B181D009B71BE /* Front Row copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Front Row copy-Info.plist"; path = "/Users/mickeygelb/Documents/Apple-TV-Experiment/Front Row copy-Info.plist"; sourceTree = "<absolute>"; };
+		FAAA942F2F0C7C6D009ADBEF /* TVScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TVScreenView.swift; path = "Apple TV 1st Gen.xcodeproj/TVScreenView.swift"; sourceTree = "<group>"; };
+		FAAA94302F0C7C6D009ADBEF /* MoviesLibraryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MoviesLibraryManager.swift; path = "Apple TV 1st Gen.xcodeproj/MoviesLibraryManager.swift"; sourceTree = "<group>"; };
+		FAAA94312F0C7C6D009ADBEF /* TVLibraryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TVLibraryManager.swift; path = "Apple TV 1st Gen.xcodeproj/TVLibraryManager.swift"; sourceTree = "<group>"; };
+		FAAA94322F0C7C6D009ADBEF /* VideoPlayerView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "VideoPlayerView 2.swift"; path = "Apple TV 1st Gen.xcodeproj/VideoPlayerView 2.swift"; sourceTree = "<group>"; };
+		FAAA94332F0C7C6D009ADBEF /* PodcastsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PodcastsScreenView.swift; path = "Apple TV 1st Gen.xcodeproj/PodcastsScreenView.swift"; sourceTree = "<group>"; };
+		FAAA94342F0C7C6D009ADBEF /* MoviesScreenView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MoviesScreenView 2.swift"; path = "Apple TV 1st Gen.xcodeproj/MoviesScreenView 2.swift"; sourceTree = "<group>"; };
+		FAAA94352F0C7C6D009ADBEF /* PodcastsLibraryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PodcastsLibraryManager.swift; path = "Apple TV 1st Gen.xcodeproj/PodcastsLibraryManager.swift"; sourceTree = "<group>"; };
+		FAB676812F07107F00DE5402 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		FAB676842F07111F00DE5402 /* MusicScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MusicScreen.swift; path = "Apple TV 1st Gen.xcodeproj/MusicScreen.swift"; sourceTree = "<group>"; };
+		FAB676852F07111F00DE5402 /* MusicLibraryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MusicLibraryManager.swift; path = "Apple TV 1st Gen.xcodeproj/MusicLibraryManager.swift"; sourceTree = "<group>"; };
+		FAB676862F07111F00DE5402 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MusicPlayer.swift; path = "Apple TV 1st Gen.xcodeproj/MusicPlayer.swift"; sourceTree = "<group>"; };
+		FAB6768B2F07167600DE5402 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FAB6768D2F07188C00DE5402 /* SettingsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenView.swift; sourceTree = "<group>"; };
+		FAECA7832F09EB1A0046CB68 /* SourcesScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SourcesScreenView.swift; path = "Apple TV 1st Gen.xcodeproj/SourcesScreenView.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA38EED72F1E7D9F00143B62 /* Front Row Lite */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Front Row Lite"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA38EEC22F1E7D6000143B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D33CA7A626890FDE0000432E = {
+			isa = PBXGroup;
+			children = (
+				FAAA94302F0C7C6D009ADBEF /* MoviesLibraryManager.swift */,
+				FAAA94342F0C7C6D009ADBEF /* MoviesScreenView 2.swift */,
+				FAAA94352F0C7C6D009ADBEF /* PodcastsLibraryManager.swift */,
+				FAAA94332F0C7C6D009ADBEF /* PodcastsScreenView.swift */,
+				FAAA94312F0C7C6D009ADBEF /* TVLibraryManager.swift */,
+				FAAA942F2F0C7C6D009ADBEF /* TVScreenView.swift */,
+				FAAA94322F0C7C6D009ADBEF /* VideoPlayerView 2.swift */,
+				FAECA7832F09EB1A0046CB68 /* SourcesScreenView.swift */,
+				FA2FCF312F0860920042B376 /* PhotoLibraryManager.swift */,
+				FA2FCF302F0860920042B376 /* PhotosScreenView.swift */,
+				FAB676852F07111F00DE5402 /* MusicLibraryManager.swift */,
+				FAB676862F07111F00DE5402 /* MusicPlayer.swift */,
+				FAB676842F07111F00DE5402 /* MusicScreen.swift */,
+				D33CA7B126890FDF0000432E /* Apple TV 1st Gen */,
+				D33CA7CB26890FEC0000432E /* Apple TV 1st GenTests */,
+				D33CA7D626890FEC0000432E /* Apple TV 1st GenUITests */,
+				FA38EED72F1E7D9F00143B62 /* Front Row Lite */,
+				D33CA7B026890FDF0000432E /* Products */,
+				FAB6768B2F07167600DE5402 /* SettingsView.swift */,
+				FAB6768D2F07188C00DE5402 /* SettingsScreenView.swift */,
+				FA8F4DE12F0B181D009B71BE /* Front Row copy-Info.plist */,
+				FA38EED12F1E7D6000143B62 /* Front Row copy2-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		D33CA7B026890FDF0000432E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA38EED02F1E7D6000143B62 /* Front Row.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D33CA7B126890FDF0000432E /* Apple TV 1st Gen */ = {
+			isa = PBXGroup;
+			children = (
+				FA0CEE802F0F36F60083692F /* version.json */,
+				FA677DAD2F0DFC8A0073E913 /* Front_Row_Icon.png */,
+				D33CA7B226890FDF0000432E /* AppDelegate.swift */,
+				D33CA7B426890FDF0000432E /* SceneDelegate.swift */,
+				D33CA7B626890FDF0000432E /* ContentView.swift */,
+				D33CA7BB26890FEB0000432E /* Assets.xcassets */,
+				FA4999012F06F6AD0074C76B /* LucidaGrande.ttc */,
+				D33CA7C326890FEB0000432E /* Info.plist */,
+				D33CA7E6268A3B9E0000432E /* LucidaGrande.ttf */,
+				D33CA7ED268A4F5A0000432E /* MyriadProSemibold.ttf */,
+				D33CA7E5268A3B9E0000432E /* LucidaGrandeBold.ttf */,
+				D33CA7E9268A4E9B0000432E /* MyriadProRegular.ttf */,
+				D33CA7B826890FDF0000432E /* Apple_TV_1st_Gen.xcdatamodeld */,
+				D33CA7BD26890FEB0000432E /* Preview Content */,
+				FAB676812F07107F00DE5402 /* MusicPlayer.swift */,
+				FA43DFA12F15A40900CC8B13 /* WebView.swift */,
+			);
+			path = "Apple TV 1st Gen";
+			sourceTree = "<group>";
+		};
+		D33CA7BD26890FEB0000432E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D33CA7BE26890FEB0000432E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D33CA7CB26890FEC0000432E /* Apple TV 1st GenTests */ = {
+			isa = PBXGroup;
+			children = (
+				D33CA7CC26890FEC0000432E /* Apple_TV_1st_GenTests.swift */,
+				D33CA7CE26890FEC0000432E /* Info.plist */,
+			);
+			path = "Apple TV 1st GenTests";
+			sourceTree = "<group>";
+		};
+		D33CA7D626890FEC0000432E /* Apple TV 1st GenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D33CA7D726890FEC0000432E /* Apple_TV_1st_GenUITests.swift */,
+				D33CA7D926890FEC0000432E /* Info.plist */,
+			);
+			path = "Apple TV 1st GenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA38EEAB2F1E7D6000143B62 /* Front Row */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA38EECD2F1E7D6000143B62 /* Build configuration list for PBXNativeTarget "Front Row" */;
+			buildPhases = (
+				FA38EEAC2F1E7D6000143B62 /* Sources */,
+				FA38EEC22F1E7D6000143B62 /* Frameworks */,
+				FA38EEC32F1E7D6000143B62 /* Resources */,
+				FA38EEE72F1E7DA000143B62 /* Embed App Clips */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Front Row";
+			productName = "Apple TV 1st Gen";
+			productReference = FA38EED02F1E7D6000143B62 /* Front Row.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D33CA7A726890FDE0000432E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = D33CA7AA26890FDF0000432E /* Build configuration list for PBXProject "Apple TV 1st Gen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D33CA7A626890FDE0000432E;
+			productRefGroup = D33CA7B026890FDF0000432E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA38EEAB2F1E7D6000143B62 /* Front Row */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA38EEC32F1E7D6000143B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA38EEC42F1E7D6000143B62 /* LucidaGrandeBold.ttf in Resources */,
+				FA38EEC52F1E7D6000143B62 /* MyriadProSemibold.ttf in Resources */,
+				FA38EEC62F1E7D6000143B62 /* version.json in Resources */,
+				FA38EEC72F1E7D6000143B62 /* LucidaGrande.ttf in Resources */,
+				FA38EEC82F1E7D6000143B62 /* LucidaGrande.ttc in Resources */,
+				FA38EEC92F1E7D6000143B62 /* MyriadProRegular.ttf in Resources */,
+				FA38EECA2F1E7D6000143B62 /* Front_Row_Icon.png in Resources */,
+				FA38EECB2F1E7D6000143B62 /* Preview Assets.xcassets in Resources */,
+				FA38EECC2F1E7D6000143B62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA38EEAC2F1E7D6000143B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA38EEAD2F1E7D6000143B62 /* version.json in Sources */,
+				FA38EEAE2F1E7D6000143B62 /* TVScreenView.swift in Sources */,
+				FA38EEAF2F1E7D6000143B62 /* MoviesLibraryManager.swift in Sources */,
+				FA38EEB02F1E7D6000143B62 /* TVLibraryManager.swift in Sources */,
+				FA38EEB12F1E7D6000143B62 /* VideoPlayerView 2.swift in Sources */,
+				FA38EEB22F1E7D6000143B62 /* PodcastsScreenView.swift in Sources */,
+				FA38EEB32F1E7D6000143B62 /* WebView.swift in Sources */,
+				FA38EEB42F1E7D6000143B62 /* MoviesScreenView 2.swift in Sources */,
+				FA38EEB52F1E7D6000143B62 /* PodcastsLibraryManager.swift in Sources */,
+				FA38EEB62F1E7D6000143B62 /* SourcesScreenView.swift in Sources */,
+				FA38EEB72F1E7D6000143B62 /* PhotosScreenView.swift in Sources */,
+				FA38EEB82F1E7D6000143B62 /* PhotoLibraryManager.swift in Sources */,
+				FA38EEB92F1E7D6000143B62 /* ContentView.swift in Sources */,
+				FA38EEBA2F1E7D6000143B62 /* SettingsView.swift in Sources */,
+				FA38EEBB2F1E7D6000143B62 /* MusicScreen.swift in Sources */,
+				FA38EEBC2F1E7D6000143B62 /* SettingsScreenView.swift in Sources */,
+				FA38EEBD2F1E7D6000143B62 /* MusicLibraryManager.swift in Sources */,
+				FA38EEBE2F1E7D6000143B62 /* MusicPlayer.swift in Sources */,
+				FA38EEBF2F1E7D6000143B62 /* Apple_TV_1st_Gen.xcdatamodeld in Sources */,
+				FA38EEC02F1E7D6000143B62 /* AppDelegate.swift in Sources */,
+				FA38EEC12F1E7D6000143B62 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D33CA7DA26890FEC0000432E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2962MN6JP3;
+				ENABLE_FILE_ACCESS_MUSIC_FOLDER = readwrite;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D33CA7DB26890FEC0000432E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2962MN6JP3;
+				ENABLE_FILE_ACCESS_MUSIC_FOLDER = readwrite;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA38EECE2F1E7D6000143B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 121;
+				DEVELOPMENT_ASSET_PATHS = "\"Apple TV 1st Gen/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER = readonly;
+				ENABLE_FILE_ACCESS_MOVIES_FOLDER = readonly;
+				ENABLE_FILE_ACCESS_MUSIC_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_PICTURE_FOLDER = readonly;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = YES;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				INFOPLIST_FILE = "Front Row copy2-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Front Row";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Front Row Requires your Music to show it in the App.";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prgm.Front-Row";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		FA38EECF2F1E7D6000143B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 121;
+				DEVELOPMENT_ASSET_PATHS = "\"Apple TV 1st Gen/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER = readonly;
+				ENABLE_FILE_ACCESS_MOVIES_FOLDER = readonly;
+				ENABLE_FILE_ACCESS_MUSIC_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_PICTURE_FOLDER = readonly;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = YES;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				INFOPLIST_FILE = "Front Row copy2-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Front Row";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Front Row Requires your Music to show it in the App.";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prgm.Front-Row";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D33CA7AA26890FDF0000432E /* Build configuration list for PBXProject "Apple TV 1st Gen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33CA7DA26890FEC0000432E /* Debug */,
+				D33CA7DB26890FEC0000432E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA38EECD2F1E7D6000143B62 /* Build configuration list for PBXNativeTarget "Front Row" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA38EECE2F1E7D6000143B62 /* Debug */,
+				FA38EECF2F1E7D6000143B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D33CA7B826890FDF0000432E /* Apple_TV_1st_Gen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D33CA7B926890FDF0000432E /* Apple_TV_1st_Gen.xcdatamodel */,
+			);
+			currentVersion = D33CA7B926890FDF0000432E /* Apple_TV_1st_Gen.xcdatamodel */;
+			path = Apple_TV_1st_Gen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D33CA7A726890FDE0000432E /* Project object */;
+}

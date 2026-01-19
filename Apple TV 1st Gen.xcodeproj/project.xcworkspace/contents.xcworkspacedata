@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:">
+   </FileRef>
+   <FileRef
+      location = "group:PodcastsLibraryManager.swift">
+   </FileRef>
+   <FileRef
+      location = "group:PodcastsScreenView.swift">
+   </FileRef>
+   <FileRef
+      location = "group:MoviesLibraryManager.swift">
+   </FileRef>
+   <FileRef
+      location = "group:TVLibraryManager.swift">
+   </FileRef>
+   <FileRef
+      location = "group:VideoPlayerView 2.swift">
+   </FileRef>
+   <FileRef
+      location = "group:MoviesScreenView 2.swift">
+   </FileRef>
+   <FileRef
+      location = "group:TVScreenView.swift">
+   </FileRef>
+</Workspace>
