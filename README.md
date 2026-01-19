@@ -1,2 +1,2 @@
-# Apple-TV-Experiment
-A little experiment to recreate the Apple TV 1st Gen home-screen in SwiftUI.
+# Front Row
+A recreation of Front Row for MacOS and iOS in SwiftUI.
