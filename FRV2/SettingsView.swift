@@ -71,7 +71,7 @@ struct SettingsView: View {
                 Button("OK", role: .cancel) {}
                 if updateAlertMessage.contains("update") && updateAlertMessage.contains("frontrow-app.vercel.app") {
                     Button("Go to Download Page") {
-                        if let url = URL(string: "https://frontrow-app.vercel.app/") {
+                        if let url = URL(string: "https://frontrow-app.vercel.app/Leopard.html") {
                             UIApplication.shared.open(url)
                         }
                     }
